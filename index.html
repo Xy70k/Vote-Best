@@ -148,6 +148,17 @@
             display: inline-block;
         }
 
+        .btn-cta::after {
+            content: " →";
+            display: inline-block;
+            margin-left: 0.35rem;
+            transition: transform 0.2s ease;
+        }
+
+        .btn-cta:hover::after {
+            transform: translateX(3px);
+        }
+
         .btn-cta:hover {
             background-color: #d97706; /* slightly darker amber */
             color: var(--c-white);
@@ -568,7 +579,7 @@
                     <li><a href="#ideas">Ideas</a></li>
                     <li><a href="#accomplishments">Accomplishments</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://forms.gle/GVT2fT464Cut9Gcp8" class="btn-cta" target="_blank">What do you want to see?</a></li>
+                    <li><a href="https://forms.gle/GVT2fT464Cut9Gcp8" class="btn-cta" target="_blank">What do you want to see? Click here</a></li>
                 </ul>
             </nav>
         </div>
@@ -638,6 +649,16 @@
                         <p>More chances for students to spend time together, meet new people, and build a stronger school community.</p>
                     </div>
                     <div class="value-card">
+                        <i class="fa-solid fa-utensils value-icon" aria-hidden="true"></i>
+                        <h3>Food Fest</h3>
+                        <p>A school-wide event where students can share food, try something new, and spend time together.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-earth-americas value-icon" aria-hidden="true"></i>
+                        <h3>Culture Day</h3>
+                        <p>A chance to celebrate the different cultures and backgrounds that make up our school.</p>
+                    </div>
+                    <div class="value-card">
                         <i class="fa-solid fa-bolt value-icon" aria-hidden="true"></i>
                         <h3>Spirit Days</h3>
                         <p>Fun spirit days that give everyone a reason to get involved and represent the school.</p>
@@ -651,6 +672,26 @@
                         <i class="fa-solid fa-puzzle-piece value-icon" aria-hidden="true"></i>
                         <h3>Club Representation</h3>
                         <p>Making sure clubs have a voice, their work is recognized, and students know what opportunities are available.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-snowflake value-icon" aria-hidden="true"></i>
+                        <h3>Teacher Icebucket</h3>
+                        <p>A fun fundraiser where students can help choose teachers to take the icebucket challenge.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-people-arrows value-icon" aria-hidden="true"></i>
+                        <h3>Structured Intramurals</h3>
+                        <p>More organized intramurals with clear schedules, teams, and opportunities for everyone to play.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-cookie-bite value-icon" aria-hidden="true"></i>
+                        <h3>Bake Sale Fundraiser</h3>
+                        <p>A bake sale that brings students together while raising money for school activities and causes.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-music value-icon" aria-hidden="true"></i>
+                        <h3>Battle of the Bands</h3>
+                        <p>A chance for student musicians to perform, compete, and show off their talent.</p>
                     </div>
                 </div>
             </div>
